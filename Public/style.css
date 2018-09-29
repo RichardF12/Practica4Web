@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    background-color: #ffffff;
+    border-bottom: #f56a6a solid 4px;
+    display: flex; 
+    flex-direction: row;
+    height: auto;
+    padding: 1em;
+}
+
+.name{
+    flex: 1;
+    
+}
+
+.name p span{
+    font-weight: bold;
+    color: #000000;
+}
+
+.name p{
+    font-family: 'Roboto', sans-serif;
+    color:  #7f888f;
+}
+
+.icon i{
+    color: #7f888f;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.icon{
+    align-content: flex-end;
+}
+
+.main{
+    display: flex;
+    padding: 1em 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.submain h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+}
+.submain{
+    flex: 1;
+    padding: 1em 5em;
+    width: 50%;
+}
+
+img{
+    border-radius: 8px;
+}
+
+.img{
+    flex: 1;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.submain .caps{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color:  #7f888f;
+    padding-top: 0.2em;
+    padding-bottom: 0.6em;
+    font-size: 1.3rem;
+}
+
+.submain p{
+    font-family: 'Roboto', sans-serif;
+    color:  #7f888f;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+input[type="button"]{
+    background-color: #ffffff;
+    color: #f56a6a;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: #f56a6a solid 2px;
+    padding: 1em 4.0em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+input[type="button"]:hover{
+    color: #d61818;
+    border: #d61818 solid 1px;
+}
+
+h2{
+    font-family: sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.line{
+    border-bottom: #f56a6a solid 4px;
+    width: 13rem;
+    margin-left: 100px;
+}
+
+
+.second{
+    display: grid;
+    grid-template-columns: 60px auto 60px auto;
+    grid-template-rows: 60px auto 60px auto;
+    grid-gap: 50px;
+    padding: 2em 1em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.second i{
+    color: #f56a6a;
+    font-size: 3rem;
+}
+
+
+.second p{
+    font-family: 'Roboto', sans-serif;
+    color:  #7f888f;
+    font-size: 0.8rem;
+}
+
+.second h3{
+    font-family: sans-serif;
+    padding-bottom: 1em;
+}
